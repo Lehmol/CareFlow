@@ -1,0 +1,14 @@
+.form-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 100%;
+  max-width: 500px; /* Adjust the form width */
+  background: #f8f9fa; /* Light background */
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

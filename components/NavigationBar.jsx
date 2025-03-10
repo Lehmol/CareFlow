@@ -6,7 +6,7 @@ function NavigationBar() {
     return(
         <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand href="#">CareFlow</Navbar.Brand>
+                <Navbar.Brand href="/">CareFlow</Navbar.Brand>
                 <Nav className="ml-auto">
                     <Nav.Link as={Link} to="/">Hem</Nav.Link>
                     <Nav.Link as={Link} to="/services">Tjänster</Nav.Link>

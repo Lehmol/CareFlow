@@ -5,7 +5,7 @@ const Contact = () => {
     return ( 
     <>
         <h1 className="text-center">Kontakta oss</h1>
-        <div className="form-container">
+        <div className="form-container pb-5">
             <Form>
                 <Form.Group>
                     <Form.Label>Namn</Form.Label>

@@ -1,12 +1,9 @@
-import { useNavigate } from 'react-router-dom';
 import '../src/index.css'
 import '../src/appen.css'
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
-const LoginCard = () => {
-    const navigate = useNavigate();
-
+const LoginCard = ({ onSelectRole }) => {
     return ( 
     <>
         <div className="loginContainer">
@@ -19,7 +16,7 @@ const LoginCard = () => {
                         Logga in som...
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                        <Dropdown.Item onClick={() => navigate('/vardgivare')}>Vårdgivare</Dropdown.Item>
+                        <Dropdown.Item onClick={() => onSelectRole("Vårdgivare")}>Vårdgivare</Dropdown.Item>
                         <Dropdown.Item>Vårdtagare</Dropdown.Item>
                         <Dropdown.Item>Anhörig</Dropdown.Item>
                     </Dropdown.Menu>

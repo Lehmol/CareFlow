@@ -1,7 +1,11 @@
 const VardgivarePage = () => {
     return ( 
     <>
-        <h1>Välkommen till vårdgivarsidan</h1>
+        <div className="loggedInContainer">
+            <div className="loggedInCard">
+                <h1>Du är inloggad som Vårdgivare</h1>
+            </div>
+        </div>
     </> );
 }
 

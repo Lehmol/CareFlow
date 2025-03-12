@@ -7,6 +7,8 @@ import Services from '../components/Services';
 import About from '../components/About';
 import Footer from '../components/Footer';
 import Home from '../components/Home';
+import Appen from '../Application/Appen';
+import VardgivarePage from '../Application/Vardgivare';
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/testa-appen" element={<Appen />} />
+        <Route path="/vardgivare" element={<VardgivarePage />} />
       </Routes>
       <Footer />
     </Router>
